@@ -1,0 +1,35 @@
+[About]
+Type=label
+Label=About
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=Plugin to convert exr sequences into jpgs or a .mov with an OCIO colorspace conversion.
+Description=Not configurable
+
+[ConcurrentTasks]
+Type=label
+Label=ConcurrentTasks
+Category=About Plugin
+CategoryOrder=-1
+Index=0
+Default=True
+Description=Not configurable
+
+[Oiiotool_Executable]
+Type=multilinemultifilename
+Category=Render Executables
+CategoryOrder=0
+Index=0
+Label=Oiiotool executable path
+Description=The path to the oiiotool executable, you can also use the hoiiotool in the houdini /bin folder. Enter alternative paths on separate lines.
+Default=C:\Program Files\Side Effects Software\Houdini 19.5.303\bin\hoiiotool.exe
+
+[Ffmpeg_Executable]
+Type=multilinemultifilename
+Category=Render Executables
+CategoryOrder=0
+Index=0
+Label=Oiiotool executable path
+Description=The path to the ffmpeg executable. Enter alternative paths on separate lines.
+Default=C:\Program Files\Side Effects Software\Houdini 19.5.303\bin\hoiiotool.exe
